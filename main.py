@@ -58,7 +58,6 @@ def inline(update, context):
                     ),
                 )
             )
-            print(result)
     context.bot.answer_inline_query(
         update.inline_query.id, answers, cache_time=0, timeout=30
     )
