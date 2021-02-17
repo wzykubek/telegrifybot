@@ -16,7 +16,7 @@ $ git clone https://github.com/samedamci/telegrifybot && cd telegrifybot
 ```
 $ pip3 install --user -r requirements.txt
 ```
-+ Create `environment` file with your bot token and instance URL.
++ Create `environment` file with your bot token.
 ```
 TOKEN=your_token_here
 ```
