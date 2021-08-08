@@ -1,6 +1,5 @@
-bin/
-lib/
-data/
 __pycache__/
-pyvenv.cfg
-environment
+.venv/
+.vscode/
+.env
+.cache

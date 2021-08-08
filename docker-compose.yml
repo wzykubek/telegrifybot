@@ -1,0 +1,10 @@
+version: "3.1"
+
+services:
+  bot:
+    build: .
+    restart: on-failure
+    environment:
+      TOKEN: ${TOKEN}
+      CLIENT_ID: ${CLIENT_ID}
+      CLIENT_SECRET: ${CLIENT_SECRET}
