@@ -1,4 +1,4 @@
-from telegrify import main
+from telegrify import bot
 
 if __name__ == "__main__":
-    main()
+    bot.run(debug=True)
