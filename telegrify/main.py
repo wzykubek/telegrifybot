@@ -12,7 +12,7 @@ from telegram import (
     InlineKeyboardButton,
 )
 import logging
-from settings import TOKEN, CLIENT_ID, CLIENT_SECRET, SOURCE_URL
+from .settings import TOKEN, CLIENT_ID, CLIENT_SECRET, SOURCE_URL
 import spotipy
 from spotipy.oauth2 import SpotifyClientCredentials
 
@@ -84,7 +84,3 @@ def main():
     dispatcher.add_handler(InlineQueryHandler(inline))
     updater.start_polling()
     updater.idle()
-
-
-if __name__ == "__main__":
-    main()
